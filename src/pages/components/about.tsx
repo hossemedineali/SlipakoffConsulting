@@ -1,16 +1,18 @@
 import {motion} from 'framer-motion'
 const About = () => {
-  return ( <div className="w-full overflow-hidden text-center h-full flex flex-col md:flex-row md:p-10  p-3  gap-1  ">
+  return ( <div className="w-full overflow-hidden text-center h-full flex flex-col md:flex-row  justify-evenly md:p-10  p-3  gap-1  ">
 
-    <motion.div initial={{y:20,opacity:0}} whileInView={{y:0,opacity:1,}} transition={{duration:2,delay:1}} className="gap-2 px-4 leading-relaxed  w-full flex flex-col items-center justify-center  h-1/2 md:w-1/2 md:h-full ">
-    <p className='first-letter:text-3xl text-md md:text-xl text-left font-bold'>In today’s tough economic times, owners and managers are driven to cut costs, improve productivity and reduce HR risks.
+    <motion.div  className="gap-2 px-4 leading-relaxed  w-full flex flex-col items-center justify-center  h-1/2 md:w-1/2 md:h-full ">
+    
+    <p className='first-letter:text-3xl text-md md:text-xl text-left font-bold'>
+      In today’s tough economic times, owners and managers are driven to cut costs, improve productivity and reduce HR risks.
     </p>
     <p className='text-md md:text-xl text-left font-bold'>
 
 When your company is in crisis,  in need of immediate preventative measures we will provide management solutions that align with legal/regulatory requirements.
     </p>
 
-<p className='hidden md:block  md:text-xl text-left font-bold'>
+<p className='hidden lg:block  md:text-xl text-left font-bold'>
 
 We are a multi-disciplinary management consulting firm with deep experience in all aspects of HR processes and principles; providing expertise in the reduction of risk and operational expenses. We assist our clients in improving positive employee relations while reducing exposure to potentially costly labor activities.
 </p>
@@ -18,7 +20,7 @@ We are a multi-disciplinary management consulting firm with deep experience in a
 
 
     </motion.div>
-    <motion.div initial={{y:20,opacity:0}} whileInView={{y:0,opacity:1,}} transition={{duration:2,delay:1}}  className="w-full  p-10 flex justify-center items-center h-1/2 md:w-1/2 md:h-full  relative" >
+    <motion.div   className="w-full  p-10 flex justify-center items-center h-1/2 md:w-1/2 md:h-full  relative" >
    
    
 <svg className='w-full h-auto' viewBox="0 0 170 142" fill="none" xmlns="http://www.w3.org/2000/svg">

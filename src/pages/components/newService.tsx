@@ -35,7 +35,7 @@ function App() {
        // loop={true}
         
         modules={[EffectFlip, Pagination, Navigation,]}
-        className="mySwiper relative h-96 w-full max-w-md mx-auto"
+        className="mySwiper relative h-full max-h-[520px] w-full max-w-md mx-auto"
    
     >
         {services.map((item,index)=>{
