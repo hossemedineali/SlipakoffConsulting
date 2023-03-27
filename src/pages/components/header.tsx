@@ -19,7 +19,7 @@ const {isLoading}=useIsLoading()
       initial={{
         left: "50%",
         top: "50%",
-        translateX: "-50%",
+        translateX: "-25%",
         translateY: "-50%",
       }}
       animate={{ left: "15px", top: "0px", translateX: 0, translateY: 0 }}
