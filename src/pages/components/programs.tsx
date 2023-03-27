@@ -25,21 +25,26 @@ function App() {
     const services = ['Policies and Procedures', 'Customized Employee Handbook', 'Benefits Review', 'Positive Employee Relations', 'Arbitrations', 'NLRB Actions'];
     const colors=['red','blue','green','yellow','brown','grey']
   return (
-    <div className=' h-full flex flex-col md:px-20 px-8 gap-10 pt-10'>
+    <div className='bg-indigo-900  h-full flex flex-col md:px-20 px-8 gap-10 pt-10'>
         <h1 className='text-3xl text-center py-2 font-semibold font-serif'>Specialty Programs</h1>
          <Swiper
         effect={"flip"}
         grabCursor={true}
         pagination={true}
-        navigation={true}
+        navigation={false}
        // loop={true}
+       autoplay={{
+        delay: 4500,
+        disableOnInteraction: false,
+        pauseOnMouseEnter:true
+      }}
         
-        modules={[EffectFlip, Pagination, Navigation,]}
-        className="mySwiper relative h-[620px] w-full max-w-md mx-auto"
+        modules={[EffectFlip, Pagination, Navigation,Autoplay]}
+        className="mySwiper relative h-[620px] w-full max-w-md mx-auto "
    
     >
       <SwiperSlide   className='h-full block pb-16  w-12/12
-               hover:cursor-pointer px-10 '>
+               hover:cursor-pointer  '>
                  <div className='bg-slate-700 py-5 px-1 rounded-xl  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-90  border border-gray-100shadow-xl text-white w-full h-full flex flex-col'>
                  <h2 className='text-center text-2xl'>Strategic Services</h2>
                  <p className='pt-5 text-md my-auto md:text-xl text-center'>
@@ -52,7 +57,7 @@ function App() {
                  </div>
                 </SwiperSlide>
                 <SwiperSlide   className='h-full block pb-16  w-12/12
-               hover:cursor-pointer px-10 '>
+               hover:cursor-pointer  '>
                  <div className='bg-slate-700 py-5 px-1 rounded-xl  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-90  border border-gray-100shadow-xl text-white w-full h-full flex flex-col'>
                  <h2 className='text-center text-2xl'>Corporate Campaign Strategy</h2>
                  <p className='pt-5 text-md my-auto md:text-xl text-center'>
@@ -66,7 +71,7 @@ function App() {
 
 
                 <SwiperSlide   className='h-full block pb-16  w-12/12
-               hover:cursor-pointer px-10 '>
+               hover:cursor-pointer  '>
                  <div className='bg-slate-700 py-5 px-1 rounded-xl  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-90  border border-gray-100shadow-xl text-white w-full h-full flex flex-col'>
                  <h2 className='text-center text-2xl'>Positive Employee Relations</h2>
                  <p className='pt-5 text-md my-auto md:text-xl text-center'>
@@ -77,7 +82,7 @@ function App() {
             
             
                 <SwiperSlide   className='h-full block pb-16  w-12/12
-               hover:cursor-pointer px-10 '>
+               hover:cursor-pointer  '>
                  <div className='bg-slate-700 py-5 px-1 rounded-xl  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-90  border border-gray-100shadow-xl text-white w-full h-full flex flex-col'>
                  <h2 className='text-center text-2xl'>Employee Handbooks & Policies</h2>
                  <p className='pt-5 text-md my-auto md:text-xl text-center'>
@@ -89,7 +94,7 @@ function App() {
                 </SwiperSlide>
               
                 <SwiperSlide   className='h-full block pb-16  w-12/12
-               hover:cursor-pointer px-10 '>
+               hover:cursor-pointer  '>
                  <div className='bg-slate-700 py-5 px-1 rounded-xl  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-90  border border-gray-100shadow-xl text-white w-full h-full flex flex-col'>
                  <h2 className='text-center text-2xl'>Mediation and Facilitation</h2>
                  <p className='pt-5 text-md my-auto md:text-xl text-center'>
@@ -99,7 +104,7 @@ function App() {
               
               
                 <SwiperSlide   className='h-full block pb-16  w-12/12
-               hover:cursor-pointer px-10 '>
+               hover:cursor-pointer  '>
                  <div className='bg-slate-700 py-5 px-1 rounded-xl  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-90  border border-gray-100shadow-xl text-white w-full h-full flex flex-col'>
                  <h2 className='text-center text-2xl'>Management/Supervisory Training</h2>
                  <p className='pt-5 text-md my-auto md:text-xl text-center'>
@@ -109,7 +114,7 @@ function App() {
                 </SwiperSlide>
               
                 <SwiperSlide   className='h-full block pb-16  w-12/12
-               hover:cursor-pointer px-10 '>
+               hover:cursor-pointer  '>
                  <div className='bg-slate-700 py-5 px-1 rounded-xl  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-90  border border-gray-100shadow-xl text-white w-full h-full flex flex-col'>
                  <h2 className='text-center text-2xl'>Health Benefits Program Management
 
@@ -125,7 +130,7 @@ function App() {
                 
                 
                 <SwiperSlide   className='h-full block pb-16  w-12/12
-               hover:cursor-pointer px-10 '>
+               hover:cursor-pointer '>
                  <div className='bg-slate-700 py-5 px-1 rounded-xl  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-90  border border-gray-100shadow-xl text-white w-full h-full flex flex-col'>
                  <h2 className='text-center text-2xl'>Absence Management Programs
 
