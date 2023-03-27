@@ -41,14 +41,9 @@ function App() {
         shadowOffset: 20,
         shadowScale: 0.94,
       }}
-      autoplay={{
-        delay: 3500,
-        disableOnInteraction: false,
-        pauseOnMouseEnter:true,
-        waitForTransition:true
-      }}
+      
         
-        modules={[ Pagination, Navigation,EffectCube,Autoplay]}
+        modules={[ Pagination, Navigation,EffectCube]}
         className="mySwiper relative h-96 w-full max-w-xs mx-auto"
    
     >
