@@ -7,10 +7,10 @@ const Services = () => {
 
 <motion.div  className="gap-2 px-4 leading-relaxed  w-full flex flex-col items-center justify-center  h-1/2 md:w-1/2 md:h-full ">
 
-<p className='first-letter:text-3xl text-md md:text-xl text-left font-bold'>
+<p className='first-letter:text-3xl text-xl md:text-xl text-left font-bold'>
   In today’s tough economic times, owners and managers are driven to cut costs, improve productivity and reduce HR risks.
 </p>
-<p className='text-md md:text-xl text-left font-bold'>
+<p className='text-xl md:text-xl text-left font-bold'>
 
 When your company is in crisis,  in need of immediate preventative measures we will provide management solutions that align with legal/regulatory requirements.
 </p>
