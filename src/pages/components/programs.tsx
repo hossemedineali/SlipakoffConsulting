@@ -43,7 +43,7 @@ function App() {
                  <div className='bg-slate-700 py-5 px-1 rounded-xl  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-90  border border-gray-100shadow-xl text-white w-full h-full flex flex-col'>
                  <h2 className='text-center text-2xl'>Strategic Services</h2>
                  <p className='pt-5 text-md my-auto md:text-xl text-center'>
-                 Slipakoff Consulting develops strategic business objectives that improve HR and labor relations, considering an organization's culture and management style. Our services help create measurable goals, improve employee relations, and establish a union-free environment. We offer Management Training and employee involvement programs for effective communication and a realistic plan of action.
+                 Slipakoff Consulting develops strategic business objectives that improve HR and labor relations, considering an organization&apos;s culture and management style. Our services help create measurable goals, improve employee relations, and establish a union-free environment. We offer Management Training and employee involvement programs for effective communication and a realistic plan of action.
 
 
 
@@ -70,7 +70,7 @@ function App() {
                  <div className='bg-slate-700 py-5 px-1 rounded-xl  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-90  border border-gray-100shadow-xl text-white w-full h-full flex flex-col'>
                  <h2 className='text-center text-2xl'>Positive Employee Relations</h2>
                  <p className='pt-5 text-md my-auto md:text-xl text-center'>
-                 Maintaining a positive, innovative, and union-free environment requires a management team with excellent interpersonal communication and problem-solving skills. Slipakoff Consulting's Positive Employee Relations Programs help build a positive work atmosphere by enabling your management team to handle day-to-day employee relations issues.
+                 Maintaining a positive, innovative, and union-free environment requires a management team with excellent interpersonal communication and problem-solving skills. Slipakoff Consulting&apos;s Positive Employee Relations Programs help build a positive work atmosphere by enabling your management team to handle day-to-day employee relations issues.
                  </p>
                  </div>
                 </SwiperSlide>
@@ -103,7 +103,7 @@ function App() {
                  <div className='bg-slate-700 py-5 px-1 rounded-xl  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-90  border border-gray-100shadow-xl text-white w-full h-full flex flex-col'>
                  <h2 className='text-center text-2xl'>Management/Supervisory Training</h2>
                  <p className='pt-5 text-md my-auto md:text-xl text-center'>
-                 Slipakoff Consulting's supervisory training covers important topics such as the National Labor Relations Act, union awareness, card signing mitigation, effective communication and advocacy strategies, and relevant case studies. The training also includes a question and answer session to ensure understanding of the material.
+                 Slipakoff Consulting&apos;s supervisory training covers important topics such as the National Labor Relations Act, union awareness, card signing mitigation, effective communication and advocacy strategies, and relevant case studies. The training also includes a question and answer session to ensure understanding of the material.
 </p>
                  </div>
                 </SwiperSlide>
