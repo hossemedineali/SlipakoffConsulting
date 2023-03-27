@@ -3,16 +3,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y,Autoplay ,} from 'swiper';
 import { EffectCards, EffectFlip,EffectCube} from "swiper";
 import {motion} from 'framer-motion'
+
+
 import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import "swiper/css/effect-cards";
-import "swiper/css/effect-flip";
-import "swiper/css";
-import "swiper/css/effect-flip";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
 import "swiper/css/effect-cube";
 
 
